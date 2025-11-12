@@ -1,0 +1,86 @@
+{
+  "name": "rxfire",
+  "version": "6.1.0",
+  "private": false,
+  "description": "Firebase JavaScript library RxJS",
+  "author": "Firebase <firebase-support@google.com> (https://firebase.google.com/)",
+  "license": "Apache-2.0",
+  "homepage": "https://firebase.google.com/",
+  "type": "module",
+  "browser": "index.esm.js",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "typings": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.esm.js",
+      "require": "./index.cjs.js"
+    },
+    "./ai": {
+      "types": "./ai/index.d.ts",
+      "import": "./ai/index.esm.js",
+      "require": "./ai/index.cjs.js"
+    },
+    "./auth": {
+      "types": "./auth/index.d.ts",
+      "import": "./auth/index.esm.js",
+      "require": "./auth/index.cjs.js"
+    },
+    "./database": {
+      "types": "./database/index.d.ts",
+      "import": "./database/index.esm.js",
+      "require": "./database/index.cjs.js"
+    },
+    "./firestore": {
+      "types": "./firestore/index.d.ts",
+      "import": "./firestore/index.esm.js",
+      "require": "./firestore/index.cjs.js"
+    },
+    "./firestore/lite": {
+      "types": "./firestore/lite/index.d.ts",
+      "import": "./firestore/lite/index.esm.js",
+      "require": "./firestore/lite/index.cjs.js"
+    },
+    "./functions": {
+      "types": "./functions/index.d.ts",
+      "import": "./functions/index.esm.js",
+      "require": "./functions/index.cjs.js"
+    },
+    "./performance": {
+      "types": "./performance/index.d.ts",
+      "import": "./performance/index.esm.js",
+      "require": "./performance/index.cjs.js"
+    },
+    "./remote-config": {
+      "types": "./remote-config/index.d.ts",
+      "import": "./remote-config/index.esm.js",
+      "require": "./remote-config/index.cjs.js"
+    },
+    "./storage": {
+      "types": "./storage/index.d.ts",
+      "import": "./storage/index.esm.js",
+      "require": "./storage/index.cjs.js"
+    }
+  },
+  "sideEffects": false,
+  "keywords": [
+    "authentication",
+    "database",
+    "Firebase",
+    "firebase",
+    "realtime",
+    "storage",
+    "rxjs",
+    "notifications"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firebaseextended/rxfire.git"
+  },
+  "scripts": {},
+  "peerDependencies": {
+    "firebase": "^12.0.0",
+    "rxjs": "^6.0.0 || ^7.0.0"
+  }
+}
