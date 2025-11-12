@@ -130,6 +130,14 @@
     "xhr2": "^0.2.1"
   },
   "files": [
+    "ai/**/*",
+    "auth/**/*",
+    "database/**/*",
+    "firestore/**/*",
+    "functions/**/*",
+    "performance/**/*",
+    "remote-config/**/*",
+    "storage/**/*",
     "dist/**/*",
     "README.md",
     "docs/**/*"
